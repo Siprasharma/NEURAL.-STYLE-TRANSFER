@@ -18,3 +18,8 @@ At the core of this implementation is the pre-trained VGG19 convolutional neural
 
 The algorithm works by initializing the generated image as a copy of the content image. It then iteratively updates this image using gradient descent to minimize a loss function. The content loss ensures that the generated image retains the structure of the original content image, while the style loss (calculated using Gram matrices of feature maps) ensures the image mimics the visual style of the style image. These two losses are combined with different weights (typically, the style loss is given more importance) to guide the image transformation. Over 6000 training iterations, the generated image is refined, and intermediate results are saved every 100 epochs. The final stylized image is saved at the end. This project showcases how pre-trained deep neural networks can be used creatively for tasks beyond classification, enabling powerful artistic transformations with relatively simple code.  
 I Perform this task in google colab.
+
+
+OUTPUT 
+
+![Image](https://github.com/user-attachments/assets/0cd7b4ee-f629-42a7-a008-526a809752ba)
